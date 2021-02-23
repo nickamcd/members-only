@@ -9,7 +9,7 @@ class PostsController < ApplicationController
   def create
     @post = current_user.posts.build(post_params)
     if @post.save
-      redirect_to root_url
+      redirect_to "posts/index"
     else
       render :new
     end
@@ -22,7 +22,7 @@ class PostsController < ApplicationController
   private
 
   def post_params
-    params.requre(:post).permit(:user_id, :title, :body)
+    params.require(:post).permit(:user_id, :title, :body)
   end
 
 end
