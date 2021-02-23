@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an application with a publicly visible chatroom. Users can sign in to make posts and can see the authors of other posts while they are signed in. Users who are not signed in may read the posts, but the author of the posts remains anonymous.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is an application made following the curriculum at www.theodinproject.com
