@@ -9,7 +9,7 @@ class PostsController < ApplicationController
   def create
     @post = current_user.posts.build(post_params)
     if @post.save
-      redirect_to "posts/index"
+      redirect_to "/"
     else
       render :new
     end
